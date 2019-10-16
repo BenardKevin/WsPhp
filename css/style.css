@@ -1,0 +1,136 @@
+/*####################################
+ Auteur : Emma Prudent
+ Date : 2017
+ Contexte : Prosit Exia CESI - PHP/BDD
+ #####################################*/ 
+
+/* Déclaration de nouvelles polices */
+@font-face {
+font-family: 'staywildy';
+src: url('fonts/StayWildy/StayWildy.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+/* Général */
+
+html {
+	/* Définition du fond d'écran du site */
+	background : url("../Images/wp3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Header */
+
+.element_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.element_menu li {
+	 display: inline;
+	 float: right;
+}
+
+.element_menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Corps du site */
+body {
+	margin: auto;
+    width: 70%;
+}
+
+h1 {
+	font-family : staywildy, sans-serif;
+	font-size:6em;
+	margin: 0;
+	margin-top :1cm;
+	font-weight:normal; 
+	color : #333;
+}
+
+
+/* Photos des produits en vente */
+
+.displayprod {
+	display : inline-block;
+	height : 250px;
+	background-color : white;
+	border:5px solid white;
+	margin: 5px;
+}
+
+.prodpic {
+	height: 150px;
+}
+
+.price {
+	height : 30px;
+	width : 60px;
+	background-color : #333;
+	color : white;
+	float: top;
+	position : relative;
+	top : -21px;
+	left : 5px;
+	margin : 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.description {
+	width : 200px;
+	margin-left : 10px;
+}
+
+/* Contenu */
+
+#contenu {
+	background-color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+#barre_boutons_admin {
+	background-color: #333;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+	display: inline-block;
+	margin : auto;
+
+}	
+.bouton_admin {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 150px;
+    height : 150px;
+    line-height: 150px;
+	padding: 10px;
+	margin : 10px;
+	display : inline-block;
+	text-align: center;
+    /*behavior: url(/PIE.htc);*/
+}
+
+.container {
+	padding:  20px;
+}
